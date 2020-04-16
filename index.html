@@ -1,68 +1,95 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta
-          name="description"
-          content="منصة مفكرة الإلكترونية لمتابعة مهام وواجبات الطلاب"
-  />
+    <meta charset="utf-8" />
+    <link rel="icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+            name="description"
+            content="منصة مفكرة الإلكترونية لمتابعة مهام وواجبات الطلاب"
+    />
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap">
 
-  <title>Mofkra - مفكرة</title>
+    <title>Mofkra - مفكرة</title>
 
-  <style>
-    body {
-      font-family: Cairo;
-      font-width: 600;
-      /*background-color: #E76F51;*/
-      background-color: #264653;
-      color: white;
-    }
+    <style>
+        body {
+            font-family: Cairo;
+            font-width: 600;
+            background-color: #264653;
+            color: white;
+            margin: 0;
+        }
 
-    .page-content {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      padding-top: 100px;
-    }
+        .page-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
 
-    .logo {
-      width: 300px;
-    }
+        .laptop-container {
+            position: relative;
+            left: 0;
+            right: 0;
+            width: 100%;
+            text-align: center;
+            border-bottom: 20px solid #0d1528;
+            margin-bottom: 30px;
+        }
 
-    .slogan {
-      font-size: 70px;
-      margin: 0;
-      color: #E76F51;
-    }
+        .laptop {
+            width: 600px;
+            margin-left: 80px;
+            position: relative;
+            bottom: -9px;
+        }
 
-    .soon-text {
-      font-size: 40px;
-      margin: 0;
-    }
+        .slogan {
+            width: 400px;
+        }
 
-    @media screen and (max-width: 768px) {
-      .page-content {
-        padding-top: 20px;
-      }
+        .soon-text {
+            font-size: 40px;
+            font-weight: 500;
+            margin: 0;
+            margin-top: 20px;
+        }
 
-      .logo {
-        width: 250px;
-      }
-    }
-  </style>
+        @media screen and (max-width: 768px) {
+            .page-content {
+                padding-top: 20px;
+            }
+
+            .laptop {
+                margin-left: unset;
+                width: 90%;
+            }
+
+            .slogan {
+                width: 70%;
+            }
+
+            .soon-text {
+                font-size: 30px;
+                margin-top: 50px;
+            }
+        }
+
+    </style>
 </head>
 <body dir="rtl">
 <div class="page-content">
-  <img class="logo" src="logo1.png" alt="Mofkra" />
 
-  <h1 class="slogan">مفكرة</h1>
-  <h4 class="soon-text">قريباً...</h4>
+    <div class="laptop-container">
+        <img class="laptop" src="laptop.png" alt="Mofkra" />
+    </div>
+
+    <img class="slogan" src="slogan.png" alt="Mofkra" />
+
+    <h4 class="soon-text">قريباً...</h4>
 </div>
 </body>
 </html>
